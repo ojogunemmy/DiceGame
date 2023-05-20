@@ -17,6 +17,7 @@ function playerOne(){
 
 }
 
+var dice = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
 function playerTwo(){
     var response = document.querySelector("h1")
     var random2 =Math.round(Math.random()*6);
