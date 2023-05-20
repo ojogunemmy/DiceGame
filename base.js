@@ -1,7 +1,7 @@
 
 
 
-
+ 
 var listData = [1,2,3,4,5,6]
 document.querySelector(".value1").value=0
 var dice = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
