@@ -7,7 +7,7 @@ document.querySelector(".value1").value=0
 
 function playerOne(){
     var randomNum =Math.round(Math.random()*6);
-    var dice = ["./images/dice1.png","./images/dice2.png","./images/dice3.png","./images/dice4.png","./images/dice5.png","./images/dice6.png"]
+    var dice = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
     
     document.querySelector(".img1").setAttribute("src",dice[randomNum]);
     document.querySelector(".value1").value=listData[randomNum]
@@ -19,7 +19,7 @@ function playerOne(){
 function playerTwo(){
     var response = document.querySelector("h1")
     var random2 =Math.round(Math.random()*6);
-    var dice = ["./images/dice1.png","./images/dice2.png","./images/dice3.png","./images/dice4.png","./images/dice5.png","./images/dice6.png"]
+    var dice = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
     document.querySelector(".img2").setAttribute("src",dice[random2]);
     document.querySelector(".value2").value=listData[random2]
 
