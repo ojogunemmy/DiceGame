@@ -27,7 +27,7 @@ function playerTwo(){
 
     var play2 =document.querySelector(".value2").value
     var play1 =document.querySelector(".value1").value
-    console.log(play1+" "+play2)
+   
 
    if(play1==0){
     response.innerHTML="Player1 has not played";
